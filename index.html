@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+    <h2 class="mainTitle">Percentage Calculator</h2>
+        <div class="percentageBox">
+            <div class="percentInput">
+            <p>What is <input placeholder="10" class="percentage-input" id="percentInputOne" type="text"> % of <input placeholder="1000" class="percentage-input" id="percentInputTwo" type="text"> ?</p>
+        </div>
+        <div class="percentOutput">
+            <button class="mainBtn" id="btnOne"><i class="fas fa-calculator fa-2x"></i></button>
+            <h3 id="resultsOne">100</h3>
+        </div>
+        </div>
+        <div class="percentageBox">
+            <div class="percentInput">
+           <p><input placeholder="25" class="percentage-input" id="percentInputThree" type="text"> is what % of <input placeholder="50" id="percentInputFour" class="percentage-input" type="text"> ?</p>
+        </div>
+        <div class="percentOutput">
+            <button class="mainBtn" id="btnTwo"><i class="fas fa-calculator fa-2x"></i></button>
+            <h3 id="resultsTwo">50%</h3>
+        </div>
+        </div>
+        <div class="percentageBox">
+            <div class="percentInput">
+            <p>What is the % change from <input placeholder="500" class="percentage-input" id="percentInputFive" type="text"> to 
+                <input placeholder="550" class="percentage-input" id="percentInputSix" type="text"> ?</p>
+        </div>
+        <div class="percentOutput">
+            <button class="mainBtn" id="btnThree"><i class="fas fa-calculator fa-2x"></i></button>
+            <h3 id="resultsThree">10%</h3>
+        </div>
+        </div>
+    </div>
+<script src="./app.js"></script>
+</body>
+</html>
